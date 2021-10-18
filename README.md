@@ -11,6 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
+<<<<<<< HEAD
 A new Flutter package that provide You A simple TimeLine
 
 ##Usage
@@ -18,6 +19,9 @@ A new Flutter package that provide You A simple TimeLine
 [Example] (https://github.com/AbdllahMohamed/simple_timeline/blob/main/example/example.dart)
 
 To use this package : *add the dependency to your ['pubspec.yaml'] file
+=======
+Simple Flutter TimeLine
+>>>>>>> 684e59f469e332ade19c176bfb4bc6e26b07cf9e
 
 ## Features
 
