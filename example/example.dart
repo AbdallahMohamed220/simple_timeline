@@ -15,12 +15,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Simpe_TimeLine',
       home:
-          SimpleTimeLine(itemCount: 3, label: 'label', labelData: 'labelData'),
+          CustomeTimeline(itemCount: 3, label: 'label', labelData: 'labelData'),
     );
   }
 }
 
-class SimpleTimeLine extends StatelessWidget {
+class CustomeTimeline extends StatelessWidget {
   final int itemCount;
   Widget? nodeWidget;
   double? nodewidth;
@@ -39,7 +39,7 @@ class SimpleTimeLine extends StatelessWidget {
   final String labelData;
   final TextStyle? labelTextStyle;
   final TextStyle? labelDataTextStyle;
-  SimpleTimeLine({
+  CustomeTimeline({
     Key? key,
     required this.itemCount,
     required this.label,

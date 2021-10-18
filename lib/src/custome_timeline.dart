@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SimpleTimeLine extends StatelessWidget {
+class CustomeTimeline extends StatelessWidget {
   final int itemCount;
   Widget? nodeWidget;
   double? nodewidth;
@@ -19,7 +19,7 @@ class SimpleTimeLine extends StatelessWidget {
   final String labelData;
   final TextStyle? labelTextStyle;
   final TextStyle? labelDataTextStyle;
-  SimpleTimeLine({
+  CustomeTimeline({
     Key? key,
     required this.itemCount,
     required this.label,
